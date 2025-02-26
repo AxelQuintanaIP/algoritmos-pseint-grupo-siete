@@ -1,17 +1,17 @@
-Algoritmo VerificarBisiesto
-    // Este algoritmo determina si un año es bisiesto o no.
+Algoritmo AnioBisiesto
+    // Algoritmo para determinar si un aÃ±o es bisiesto sin usar variable lÃ³gica
     
-    // Definición de variable
+    // DeclaraciÃ³n de variables
     Definir anio Como Entero;
     
-    // Solicitar al usuario que ingrese el año
-    Escribir "Ingrese el año:";
+    // Entrada de datos
+    Escribir "Ingrese un aÃ±o: ";
     Leer anio;
     
-    // Verificar si el año es bisiesto
-    Si (anio MOD 4 = 0 Y anio MOD 100 <> 0) O (anio MOD 400 = 0) Entonces
-        Escribir anio, " es un año bisiesto.";
+    // Proceso y salida de resultados en un solo condicional
+    Si ((anio MOD 4 = 0) Y (anio MOD 100 <> 0)) O (anio MOD 400 = 0) Entonces
+        Escribir "El aÃ±o ", anio, " es bisiesto";
     Sino
-        Escribir anio, " NO es un año bisiesto.";
+        Escribir "El aÃ±o ", anio, " no es bisiesto";
     FinSi
 FinAlgoritmo
