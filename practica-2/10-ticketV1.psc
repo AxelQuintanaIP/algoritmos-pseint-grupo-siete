@@ -1,12 +1,12 @@
 Algoritmo PreTicket
-    // Este algoritmo genera un pre-ticket basado en el precio de un artículo y la cantidad de unidades.
+    // Este algoritmo genera un pre-ticket basado en el precio de un artÃ­culo y la cantidad de unidades.
     // Si la cantidad de unidades es mayor a 4, se aplica un descuento del 5%.
 	
-    // Definición de variables
+    // DefiniciÃ³n de variables
     Definir precioUnitario, cantidad, subTotal, descuento, precioFinal Como Real;
 	
-    // Solicitar al usuario el precio unitario del artículo
-    Escribir "Ingrese el precio unitario del artículo: ";
+    // Solicitar al usuario el precio unitario del artÃ­culo
+    Escribir "Ingrese el precio unitario del artÃ­culo: ";
     Leer precioUnitario;
 	
     // Solicitar al usuario la cantidad de unidades
@@ -25,7 +25,7 @@ Algoritmo PreTicket
     SiNo
         // Si no aplica descuento, el precio final es igual al precio total
         descuento <- 0;
-        precioFinal <- precioTotal;
+        precioFinal <- subTotal;
     FinSi
 	
     // Mostrar el pre-ticket
